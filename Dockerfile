@@ -1,4 +1,4 @@
 FROM openjdk
 WORKDIR /app
 COPY . /app
-CMD ["java", "-jar", "sample.java"]
+CMD ["java", "-jar", "maven-jar-sample-1.0-SNAPSHOT.jar"]
